@@ -76,6 +76,7 @@ int main()
     Bowling B;
     uint8_t lastRoundTries = 0;
     cout << "Hello world!" << endl;
+    cout << "Bowling Game Enter Score 0-9, x = strike, / = spare, Any other character to EXIT" << endl;
     B.roundNumber++;
     B.firstTry = 255;
     B.secondTry = 255;
